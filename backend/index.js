@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://jobbler-1.onrender.com", // Adjust as necessary
+  origin: "http://localhost:8000", // Adjust as necessary
   credentials: true,
 };
 
